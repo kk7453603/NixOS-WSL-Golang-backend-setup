@@ -1,4 +1,4 @@
-{ config, ... }: {
+{ config, pkgs, ... }: {
     programs.fish = {
       enable = true;
       # useBabelfish удалён отсюда
